@@ -148,9 +148,8 @@ li span {
     line-height: 25px;
     font-weight: 600;
 }
-
 .infoSection {
-    height: 1600px; /* Adjusted for the site height */
+    height: 600px;
 }
 
 .infoHeader {
@@ -269,4 +268,97 @@ li span {
 
 .footerlinks .mainlink {
     color: #006C72;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1175px) {
+    .infoSection {
+        height: auto;
+    }
+
+    .infoCards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .infoCards .card {
+        height: auto;
+        width: 80%;
+        margin: 20px;
+    }
+
+    .infoCards .one .cardoneImg,
+    .infoCards .two .cardtwoImg,
+    .infoCards .three .cardthreeImg {
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+}
+
+/* Add more media queries for different screen sizes as needed */
+
+
+/* RESPONSIVE */
+
+/* For phones */
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .nav h4 {
+        font-size: 6vw;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+
+    .nav .links a {
+        margin-right: 15px; /* Adjusted for smaller screens */
+        font-size: 14px; /* Adjusted for smaller screens */
+        font-weight: 600;
+    }
+
+    .landing {
+        flex-direction: column-reverse;
+        height: auto; /* Adjusted for smaller screens */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .landingText h1 {
+        font-size: 6vw;
+    }
+
+    .landingText h3 {
+        font-size: 16px; /* Adjusted for smaller screens */
+    }
+
+    .landingText .btn {
+        margin: 0 auto;
+    }
+
+    .landingText .btn a {
+        font-size: 3vw;
+    }
+
+    .landingImage img {
+        width: 80vw; /* Adjusted for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding-bottom: 40px;
+    }
+}
+
+/* For tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Add your tablet-specific styles here */
 }
