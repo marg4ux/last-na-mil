@@ -108,13 +108,14 @@ html,body{
 
 .aboutText h1{
     position: relative;
-    left: 180px;
+    left: 90px;
 }
 
 .aboutText img{
-    width: 10vw;
+    width: 11vw;
     position: absolute;
-    top: 0px;
+	right: 300px;
+    top: -10px;
 }
 
 .aboutList{
