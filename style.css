@@ -1,19 +1,21 @@
- @font-face { font-family:yagiza ; src: url('font\YAGIZA__.TTF'); } 
+@font-face {
+    font-family: yagiza;
+    src: url('font\YAGIZA__.TTF');
+}
 
-
-html,body{
+html, body {
     background-color: #fff;
-    font-family: 'Source Sans Pro',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     overflow-x: hidden !important;
     margin: 0px !important;
     padding: 0px !important;
 }
 
-*{
+* {
     text-decoration: none !important;
 }
 
-.nav{
+.nav {
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -26,31 +28,31 @@ html,body{
     align-items: center;
     padding: 0 25px 0 25px;
     background-color: #fff;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.nav .links a{
+.nav .links a {
     margin-right: 25px;
     font-size: 16px;
     font-weight: 600;
     color: #000;
 }
 
-.nav .links .mainlink{
+.nav .links .mainlink {
     color: #6C8BBA;
 }
 
-.nav h4{
-	color: #2D6A71;
-	font-family: yagiza;
+.nav h4 {
+    color: #2D6A71;
+    font-family: yagiza;
     font-size: 22px;
     font-weight: bold;
     margin-left: 25px;
 }
 
-.landing{
+.landing {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,39 +61,38 @@ html,body{
     height: 100vh;
 }
 
-.landingText h1{
-	color: #2D6A71;
+.landingText h1 {
+    color: #2D6A71;
     font-size: 6vw;
     margin: 0 !important;
 }
 
-.landingText h3{
+.landingText h3 {
     margin: 6px !important;
     font-size: 20px;
     opacity: 0.3;
     line-height: 30px;
 }
 
-.landingText .btn{
+.landingText .btn {
     width: 120px;
     margin-top: 30px;
     padding: 14px 20px 14px 20px;
     background-color: #AC97C2;
     border-radius: 45px;
-    text-align: center
+    text-align: center;
 }
 
-.landingText .btn a{
+.landingText .btn a {
     font-size: 1.2vw;
     color: #fff;
 }
 
-.landingImage img{
+.landingImage img {
     width: 28vw;
 }
 
-
-.about{
+.about {
     height: 600px;
     padding: 50px;
     display: flex;
@@ -100,41 +101,41 @@ html,body{
     align-items: center;
 }
 
-.aboutText{
+.aboutText {
     position: relative;
     padding: 0 50px;
     height: inherit;
 }
 
-.aboutText h1{
+.aboutText h1 {
     position: relative;
     left: 90px;
 }
 
-.aboutText img{
+.aboutText img {
     width: 11vw;
     position: absolute;
-	right: 300px;
+    right: 300px;
     top: -10px;
 }
 
-.aboutList{
+.aboutList {
     width: 50%;
 }
 
-ol{
+ol {
     list-style: none;
     color: #006C72;
 }
 
-ol li{
+ol li {
     font-size: 34px;
     position: relative;
     margin-bottom: 20px;
     border-bottom: 1px solid #006C72;
 }
 
-li p{
+li p {
     font-size: 16px;
     color: #000;
     padding-left: 60px;
@@ -142,23 +143,22 @@ li p{
     opacity: 0.6;
 }
 
-li span{
+li span {
     position: absolute;
     line-height: 25px;
     font-weight: 600;
 }
 
-
-.infoSection{
-    height: 600px;
+.infoSection {
+    height: 1600px; /* Adjusted for the site height */
 }
 
-.infoHeader{
+.infoHeader {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.infoCards{
+.infoCards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -166,57 +166,59 @@ li span{
     padding: 40px 0 40px 0;
 }
 
-.infoCards .card{
+.infoCards .card {
     position: relative;
     height: 360px;
     width: 350px;
     background: #fff;
-    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
 }
 
-.infoCards .one .cardoneImg{
+.infoCards .one .cardoneImg {
     width: 180px;
     position: absolute;
     top: -50px;
     right: -50px;
 }
-.infoCards .two .cardtwoImg{
+
+.infoCards .two .cardtwoImg {
     width: 158px;
     position: absolute;
     top: -50px;
     right: -50px;
 }
-.infoCards .three .cardthreeImg{
+
+.infoCards .three .cardthreeImg {
     width: 200px;
     position: absolute;
     top: -50px;
     right: -50px;
 }
 
-.cardbgone{
+.cardbgone {
     height: 150px;
     background-color: #A998BF;
 }
-.cardbgtwo{
+
+.cardbgtwo {
     height: 150px;
     background-color: #ECC4C3;
 }
 
-.cardContent{
+.cardContent {
     padding: 0 20px;
 }
 
-.cardContent h2{
+.cardContent h2 {
     font-weight: 600;
 }
 
-.cardContent p{
+.cardContent p {
     line-height: 30px;
-    opacity: 0.6
+    opacity: 0.6;
 }
 
-
-.cardContent .cardBtn{
+.cardContent .cardBtn {
     position: absolute;
     right: 20px;
     padding: 10px;
@@ -230,186 +232,41 @@ li span{
     transition: all ease-in-out 0.2s;
 }
 
-.cardContent .cardBtn:hover{
-  background-color: #007D9F;
+.cardContent .cardBtn:hover {
+    background-color: #007D9F;
 }
 
-.cardContent .cardBtn .cardIcon{
+.cardContent .cardBtn .cardIcon {
     position: relative;
-    top:0px;
-    left:0px;
+    top: 0px;
+    left: 0px;
     width: 16px;
 }
 
+.footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
 
-.footer{
+.footer h2 {
+    font-family: yagiza;
     height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
 }
-.footer h2{
-	font-family: yagiza;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-}
-.footerlinks a{
+
+.footerlinks a {
     margin: 20px;
     font-size: 16px;
     font-weight: 600;
     color: #000;
 }
-.footerlinks .mainlink{
+
+.footerlinks .mainlink {
     color: #006C72;
 }
-
-
-/* RESPONSIVE */
-
-
-@media only screen and (max-width: 600px){
-
-.nav{
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    height: auto;
-    overflow-y: hidden;
-}
-
-.nav h4{
-    font-size: 6vw;
-    margin-top: 10px;
-    margin-bottom: 14px;
-}
-
-.nav .links a{
-    margin-right: 25px;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-
-/* LANDING PAGE */
-
-.landing{
-    flex-direction: column-reverse;
-    height: 750px;
-    align-items: center;
-    justify-content: center;
-    text-align: center
-}
-
-.landingText h1{
-    font-size: 6vw;
-    margin: 0 !important;
-}
-
-.landingText h3{
-    font-size: 16px;
-}
-
-.landingText .btn{
-    margin: 0 auto;
-}
-
-.landingText .btn a{
-    font-size: 3vw;
-}
-
-.landingImage img{
-    width: 52vw;
-    margin-bottom: 20px;
-}
-
-
-.footer{
-    padding-bottom: 40px;
-}
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
