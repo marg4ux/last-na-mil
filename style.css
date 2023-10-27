@@ -46,7 +46,7 @@ html, body {
 
 .nav h4 {
     color: #2D6A71;
-    font-family: yagiza;
+    font-family: 'yagiza' !important;
     font-size: 22px;
     font-weight: bold;
     margin-left: 25px;
@@ -251,7 +251,7 @@ li span {
 }
 
 .footer h2 {
-    font-family: yagiza;
+    font-family: 'yagiza' !important;
     height: 100px;
     display: flex;
     flex-direction: column;
