@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
 @font-face {
     font-family: yagiza;
     src: url('font/YAGIZA__.TTF');
@@ -5,7 +8,7 @@
 
 html, body {
     background-color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden !important;
     margin: 0px !important;
     padding: 0px !important;
